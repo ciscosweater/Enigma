@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.enigma-container {
+    height: 130vh;
+}
+
+.enigma-background {
+    background-color: #343D6C;
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+    padding: 20px 0 30px 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.enigma-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.send-button {
+    width: 50%;
+    height: 8vh;
+    border-radius: 15px;
+    border: none;
+    background-color: #6774B6;
+    color: #121626;
+    font-size: 0.8em;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.send-button:hover {
+    background-color: #121626;
+    color: #6774B6;
+}
+
+h1 {
+    color: #232C58;
+    font-family: 'Itim', cursive;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px 2px 10px #0000002f;
+}
+
+.title-span {
+    color: #9BA4CF;
+}
+
+label {
+    color: #9FA7D1;
+    display: block;
+    margin-bottom: 20px;
+}
+
+label:first-of-type {
+    margin-top: 20px;
+}
+
+label:last-of-type {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 15px;
+    text-indent: 20px;
+}
+
+p {
+    color: #9FA7D1;
+}
