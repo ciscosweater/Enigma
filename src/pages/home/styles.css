@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
 .enigma-container {
-    height: 130vh;
+    min-height: 100vh;
 }
 
 .enigma-background {
     background-color: #343D6C;
-    width: 90%;
-    height: auto;
+    width: 350px;
     margin: 30px auto;
     padding: 20px 0 30px 0;
     border-radius: 10px;
